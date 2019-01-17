@@ -40,3 +40,6 @@ nbproject
 .CVS
 .idea
 git-m
+
+# Webpack
+package-lock.json
