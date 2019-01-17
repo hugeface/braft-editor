@@ -15,7 +15,7 @@ module.exports = merge(baseConfigs, {
     filename: '[name].js'
   },
   plugins: [
-    new ExtractTextPlugin('index.css'),
+    new ExtractTextPlugin('index-extension.css'),
     new HtmlWebpackPlugin({
       template: './playground/index.html'
     })
